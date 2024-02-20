@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.panel{
+    margin:10px;
+    background:#efefef;
+    border:solid 1px #adadad;
+    font-family:Arial;
+    font-size: 12px;
+    width:250px;
+}
+.panel .contenedor{
+    padding: 10px;
+    line-height:150%;
+}
+.panel .contenedor h1{
+    background:#599bff;
+    color:white;
+    font-size:14px;
+    padding:10px;
+    text-transform:uppercase;
+    text-align:center;
+}

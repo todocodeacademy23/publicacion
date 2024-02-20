@@ -1,0 +1,114 @@
+body{
+    width: 80%;
+    font-size: 14px;
+    font-family: helvica;
+    margin: auto;
+}
+nav{
+    background: black;
+    width: 100%;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav #menuprincipal{
+    background: #d300c1;
+    font-size: 14px;
+    height: 37px;
+}
+nav #menuprincipal ul li{
+    float: left;
+    list-style: none;
+}
+nav #menuprincipal ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+nav #menuprincipal ul li a:hover{
+    font-weight: bold;
+    background: #9400d3;
+    transition: all 1s;
+}
+aside{
+    float: left;
+    width: 27%;
+    margin-top: 20px;
+}
+aside .panel{
+    margin: 0px;
+    background: #ff69b4;
+    border: solid 1px #ff69b4;
+    font-family: Arial;
+    font-size: 12px;
+    width: 100%;
+}
+
+aside .contenedor{
+    padding: 10px;
+}
+
+aside .panel .contenedor h1{
+    background: #d300c1;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+aside .panel .contenedor{
+    line-height: 150%;
+}
+
+section{
+    float: right;
+    width: 73%;
+    margin: 0px;
+    padding: 0px;
+}
+
+section article{
+    margin: 10px;
+    padding: 10px;
+}
+
+section article .articulo{
+    background: #fff;
+    border: solid 1px #649968;
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+section article .articulo img{
+    float: left;
+    margin-right: 20px;
+}
+
+section article .articulo h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #9400d3;
+}
+footer{
+    display: block;
+    background: #d300c1;
+    height: 40px;
+    width: 100%;
+}
+footer p{ 
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
